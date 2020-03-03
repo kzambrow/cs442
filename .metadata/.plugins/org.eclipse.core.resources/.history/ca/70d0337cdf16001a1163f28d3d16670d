@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+	<xs:attribute name="employee_id" type="xs:integer">
+	<xs:element name="Employees">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Employee"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Employee">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="first_name" type="xs:string"/>
+				<xs:element name="last_name" type="xs:string"/>
+				<xs:element name="employment_date" type="xs:date"/>
+				<xs:element name="dept_id" type="xs:integer"/>
+				<xs:element name="annual_salary" type="xs:decimal"/>
+			</xs:sequence>
+			<xs:attribute ref="employee_id" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:attribute name="dept_id" type="xs:integer"/>
+	<xs:element name="Departments">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Department"/>
+			</xs:sequence>
+		</xs:complexType>
+	<xs:element name="Department">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dept_name" type="xs:string"/>
+				<xs:element name="manager_id" type="xs:string"/>
+			</xs:sequence>
+			<xs:attribute ref="dept_id" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

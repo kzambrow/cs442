@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employees>
+	<Employee employee_id="1">
+		<first_name></first_name>
+		<last_name></last_name>
+		<employment_date></employment_date>
+		<dept_id></dept_id>
+		<annual_salary></annual_salary></Employee>
+	<Department dept_id="101">
+		<dept_name></dept_name>
+		<manager_id></manager_id></Department></Employees>

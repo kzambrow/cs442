@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Company>
+  <Employee employee_id="1">
+    <first_name>Big</first_name>
+    <last_name>Boss</last_name>
+    <employment_date>2010-01-01</employment_date>
+    <dept_id>101</dept_id>
+    <annual_salary>500000.0</annual_salary>
+  </Employee>
+  <Employee employee_id="2">
+    <first_name>Jake</first_name>
+    <last_name>Lee</last_name>
+    <employment_date>2011-01-01</employment_date>
+    <dept_id>101</dept_id>
+    <annual_salary>400000.0</annual_salary>
+  </Employee>
+  <Department dept_id="101">
+    <dept_name>Corporate Office</dept_name>
+    <manager_id>1</manager_id>
+  </Department>
+  <Department dept_id="101">
+    <dept_name>Corporate Office</dept_name>
+    <manager_id>1</manager_id>
+  </Department>
+</Company>

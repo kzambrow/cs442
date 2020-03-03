@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Company>
+  <Employee employee_id="1">
+    <first_name>Big</first_name>
+    <last_name>Boss</last_name>
+    <employment_date>2010-01-01</employment_date>
+    <dept_id>101</dept_id>
+    <annual_salary>500000.0</annual_salary>
+  </Employee>
+  <Employee employee_id="2">
+    <first_name>Jake</first_name>
+    <last_name>Lee</last_name>
+    <employment_date>2011-01-01</employment_date>
+    <dept_id>101</dept_id>
+    <annual_salary>400000.0</annual_salary>
+  </Employee>
+  <Employee employee_id="3">
+    <first_name>Jack</first_name>
+    <last_name>Last</last_name>
+    <employment_date>2011-01-01</employment_date>
+    <dept_id>101</dept_id>
+    <annual_salary>300000.0</annual_salary>
+  </Employee>
+  <Employee employee_id="4">
+    <first_name>Jane</first_name>
+    <last_name>Doe</last_name>
+    <employment_date>2011-01-01</employment_date>
+    <dept_id>102</dept_id>
+    <annual_salary>200000.0</annual_salary>
+  </Employee>
+  <Employee employee_id="5">
+    <first_name>John</first_name>
+    <last_name>Doe</last_name>
+    <employment_date>2012-01-01</employment_date>
+    <dept_id>102</dept_id>
+    <annual_salary>100000.0</annual_salary>
+  </Employee>
+  <Employee employee_id="6">
+    <first_name>Jesse</first_name>
+    <last_name>Day</last_name>
+    <employment_date>2012-01-01</employment_date>
+    <dept_id>103</dept_id>
+    <annual_salary>100000.0</annual_salary>
+  </Employee>
+  <Department dept_id="101">
+    <dept_name>Corporate Office</dept_name>
+    <manager_id>1</manager_id>
+  </Department>
+  <Department dept_id="101">
+    <dept_name>Corporate Office</dept_name>
+    <manager_id>1</manager_id>
+  </Department>
+  <Department dept_id="101">
+    <dept_name>Corporate Office</dept_name>
+    <manager_id>1</manager_id>
+  </Department>
+  <Department dept_id="102">
+    <dept_name>Lower Office 1</dept_name>
+    <manager_id>2</manager_id>
+  </Department>
+  <Department dept_id="102">
+    <dept_name>Lower Office 1</dept_name>
+    <manager_id>2</manager_id>
+  </Department>
+  <Department dept_id="103">
+    <dept_name>Lower Office 2</dept_name>
+    <manager_id>3</manager_id>
+  </Department>
+</Company>
